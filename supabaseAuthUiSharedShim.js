@@ -78,6 +78,23 @@ window.__supabase_auth_ui_shared = {
             loading_button_label: "Signing in ..."
         }
     },
+    providerIconClasses: {
+        google: 'i-logos-google-icon',
+        facebook: 'i-logos-facebook',
+        notion: 'i-logos-notion-icon',
+        gitlab: 'i-logos-gitlab',
+        apple: 'i-logos-apple',
+        azure: 'i-logos-microsoft-azure',
+        bitbucket: 'i-logos-bitbucket',
+        discord: 'i-logos-discord',
+        github: 'i-logos-github-icon',
+        linkedin: 'i-logos-linkedin-icon',
+        slack: 'i-logos-slack-icon',
+        spotify: 'i-logos-spotify-icon',
+        twitch: 'i-logos-twitch',
+        twitter: 'i-logos-twitter',
+        workos: 'i-logos-workos-icon'
+    },
     merge(e, ...a) {
         let t = a.length;
         for (let r = 0; r < t; r++)
